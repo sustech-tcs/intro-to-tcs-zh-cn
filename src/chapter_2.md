@@ -102,7 +102,7 @@ Lewis Carroll, **爱丽丝镜中奇遇**
 ```admonish pic id = 'digitsbitmapfig'
 ![digitsbitmapfig](./images/chapter2/digitsbitmap.png)
 
-{{pic}}{fig:digitsbitmap} 将数字 0, 1, 2, ..., 9 的每个数字表示为一个 12×8 的位图图像, 该图像可以被视为属于 $\{0,1\}^\{96\}$ 的一个字符串. 使用这个方案, 我们可以把具有 $n$ 位十进制数字的自然数 $x$ 表示为属于 $\{0,1\}^\{96n\}$ 的一个字符串. 图片来源: [A. C. Andersen 的博客文章](http://blog.andersen.im/2010/12/autonomous-neural-development-and-pruning/).
+{{pic}}{fig:digitsbitmap} 将数字 0, 1, 2, ..., 9 的每个数字表示为一个 12×8 的位图图像, 该图像可以被视为属于 $\{0,1\}^{96}$ 的一个字符串. 使用这个方案, 我们可以把具有 $n$ 位十进制数字的自然数 $x$ 表示为属于 $\{0,1\}^{96n}$ 的一个字符串. 图片来源: [A. C. Andersen 的博客文章](http://blog.andersen.im/2010/12/autonomous-neural-development-and-pruning/).
 ```
 
 
