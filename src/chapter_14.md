@@ -122,7 +122,7 @@ $$
 对于每个$F,G,H :\{0,1\}^* \rightarrow \{0,1\}$, 如果$F \leq_p G$且$G \leq_p H$, 那么$F \leq_p H$. 
 ```
 
-```admonish solution collapsible=true title="对{{ref:exe:reductionsandP}}的解答"
+```admonish solution collapsible=true title="对{{ref:exe:transitiveex}}的解答"
 如果$F \leq_p G$且$G \leq_p H$, 那么存在多项式时间可计算的函数$R_1$和$R_2$, 它们将$\{0,1\}^*$映射到$\{0,1\}^*$, 使得对于每个$x\in \{0,1\}^*$, $F(x) = G(R_1(x))$, 并且对于每个$y\in \{0,1\}^*$, $G(y) = H(R_2(y))$. 结合这两个等式, 我们看到对于每个$x\in \{0,1\}^*$, $F(x) = H(R_2(R_1(x)))$. 因此, 为了证明$F \leq_p H$, 只需证明映射$x \mapsto R_2(R_1(x))$是多项式时间可计算的. 但是, 如果存在某些常数$c,d$使得$R_1(x)$可在$|x|^c$时间内计算, 且$R_2(y)$可在$|y|^d$时间内计算, 那么$R_2(R_1(x))$可在$(|x|^c)^d = |x|^{cd}$时间内计算, 这是多项式时间. 
 ```
 
