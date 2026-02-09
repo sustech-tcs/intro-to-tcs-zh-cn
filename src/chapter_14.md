@@ -57,11 +57,11 @@ $$3\text{SAT}\left("(x_0 \vee \overline{x}_1 \vee x_2)  \wedge   (x_1 \vee x_2 \
 
 **最大割: 最大割问题**对应于函数$\text{MAXCUT}:\{0,1\}^* \rightarrow \{0,1\}$, 它将一个图$G$和一个数$k$映射为$1$, 如果$G$中存在一个割能切断至少$k$条边; 否则将$(G,k)$映射为$0$. 
 
-以上所有问题都属于$\mathbf{EXP}$, 但是否属于$\mathbf{P}$尚属未知. 不过, 我们将在本章中看到, 如果$\text{QUADEQ}$、$\text{LONGPATH}$或$\text{MAXCUT}$中的任何一个属于$\mathbf{P}$, 那么3\text{SAT}也属于$\mathbf{P}$. 
+以上所有问题都属于$\mathbf{EXP}$, 但是否属于$\mathbf{P}$尚属未知. 不过, 我们将在本章中看到, 如果$\text{QUADEQ}$、$\text{LONGPATH}$或$\text{MAXCUT}$中的任何一个属于$\mathbf{P}$, 那么$3\text{SAT}$也属于$\mathbf{P}$. 
 
 ## 多项式时间归约 {#polytimeredsec }
 
-假设$F,G:\{0,1\}^* \rightarrow \{0,1\}$是两个布尔函数. 从$F$到$G$的**多项式时间归约**(有时简称为**"归约"**)是一种表明$F$“不难于”$G$的方式, 其含义是: 如果$G$存在多项式时间算法, 则$F$也存在多项式时间算法. 
+假设$F,G:\{0,1\}^* \rightarrow \{0,1\}$是两个布尔函数. 从$F$到$G$的**多项式时间归约**(有时简称为 **"归约"**)是一种表明$F$“不难于”$G$的方式, 其含义是: 如果$G$存在多项式时间算法, 则$F$也存在多项式时间算法. 
 
 ```admonish quote title=""
 {{defc}}{def:reduction-def}[多项式时间归约]
