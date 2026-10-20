@@ -100,7 +100,7 @@ def MAJ(X[0],X[1],X[2]):
     temp       = OR(secondpair,thirdpair)
     return OR(firstpair,temp)
 ```
-<iframe src="https://trinket.io/embed/python/5ead2eab1b" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<figure style="margin:0;border:1px solid #e2e8f0;border-radius:8px;overflow:hidden"><iframe src="https://coddy.tech/embed-editor?lang=python&theme=light&layout=stacked&code=ZGVmIEFORChhLGIpOiByZXR1cm4gYSpiDQoNCmRlZiBPUihhLGIpOiByZXR1cm4gMSBpZiBhK2IgZWxzZSAwDQoNCmRlZiBOT1QoYSk6IHJldHVybiAxLWENCg0KZGVmIE1BSihYMCxYMSxYMik6DQogICAgZmlyc3RwYWlyICA9IEFORChYMCxYMSkNCiAgICBzZWNvbmRwYWlyID0gQU5EKFgxLFgyKQ0KICAgIHRoaXJkcGFpciAgPSBBTkQoWDAsWDIpDQogICAgdGVtcCAgICAgICA9IE9SKHNlY29uZHBhaXIsdGhpcmRwYWlyKQ0KICAgIHJldHVybiBPUihmaXJzdHBhaXIsdGVtcCkNCiAgICANCnByaW50KE1BSigwLDEsMSkp&credit=0" width="100%" height="600" style="display:block;border:0;width:100%" title="Python code editor by Coddy" loading="lazy"></iframe><figcaption style="box-sizing:border-box;padding:5px 12px;font:11px/1.4 system-ui,-apple-system,sans-serif;color:#64748b;background:#f1f5f9;border-top:1px solid #e2e8f0;text-align:right" dir="ltr">Powered by <a href="https://coddy.tech/embed" target="_blank" rel="noopener" style="color:#0077ff;font-weight:600;text-decoration:none;">Coddy</a></figcaption></figure>
 ~~~
 
 - 公式的引用: 在行间公式中添加 `[{numeq}]{id}`, 例如:
